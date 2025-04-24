@@ -31,31 +31,20 @@
 ```bash
 $ yarn install
 ```
-
-## Running the app
+## Setup database 
+1. Install MySQL
+2. Create a database named `hdmtestdev`
+3. Create a `.env` file containing following lines
 
 ```bash
-# development
-$ yarn run start
-
-# watch mode
-$ yarn run start:dev
-
-# production mode
-$ yarn run start:prod
+APP_ENV=local
+DATABASE_URL="mysql://root:rootsosecure@localhost:3306/hdmtestdev"
 ```
 
-## Test
-
+## Running the app
 ```bash
-# unit tests
-$ yarn run test
+$ yarn run prisma:migrate:run
 
-# e2e tests
-$ yarn run test:e2e
-
-# test coverage
-$ yarn run test:cov
 ```
 
 ## Support
