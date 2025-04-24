@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE `task` ADD COLUMN `deadline` DATETIME(3) NULL,
+    ADD COLUMN `isDone` BOOLEAN NOT NULL DEFAULT false;
