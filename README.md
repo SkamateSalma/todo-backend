@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+The goal is to build a Todo list React app using a NestJS as backend. This repo aims to store the backend implementation of our app.
 
 ## Installation
 
